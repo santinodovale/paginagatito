@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#espacio{
+    height: 4em;
+    width: 100vw;
+}
+#nav{
+    display: flex;
+    position: fixed;
+    height: 4em;
+    width: 100vw;
+    background-color: beige;
+    z-index: 1;
+}
+#nombre {
+padding: auto;
+margin-left: 1em;
+}
+section {
+    background-color: red;
+    display: flex;
+    min-height: 100vh;
+    max-height: 250vh;   
+}
+#titulo {
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    margin: 1em;
+}
+.pelis{
+    margin: 1em 0.25em 0.25em 1em;
+    width: 90%;
+}
+aside {
+    position: sticky;
+    top: 4em;
+    display: flex;
+    float: left;
+    background: aqua;
+    width: 20vw;
+    height: 100vh;
+    z-index: 0;
+    overflow-x: hidden;
+    overflow-y: auto;    
+}
+#gif{
+    width: 100%;
+}
